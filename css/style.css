@@ -1,0 +1,227 @@
+body {
+	background:#e5e5e5;
+	
+	
+}
+
+.navbar
+{
+	
+	background-color:#702283;
+	
+	border:none;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:#fff!important;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	background-color:#962071!important;
+	
+}
+.navbar-inverse .navbar-brand{
+	background-color:#962071!important;
+	color:#fff!important
+}
+
+
+navbar-default .navbar-nav > li > a
+{
+	/*color:#ffc!important;*/
+	font-size:20px;
+	font-weight:100;
+	margin-right:50px;
+	padding-bottom:20px;
+	font-family: "Segoe UI Light", Helvetica, Arial, sans-serif;
+	transition:all 2s;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+	background-color:#962071;
+}
+h1 {
+	 font-family: 'Raleway', sans-serif;
+	 font-weight:50px;
+	 font-size:50px;
+	 letter-spacing:-2px;
+	 color:#5f2159;
+
+}
+h3, h2{
+	 font-family: 'Raleway', sans-serif;
+	 font-weight:900;
+	 /*font-size:50px;*/
+	 letter-spacing:-2px;
+	 color:#962071;
+
+}
+h2 a, .lead a{
+	color:#3d373b;
+}
+h2 a:hover, .lead a:hover{
+	color:#962071;
+}
+/*home page pagination*/
+.pager .active_link {
+	
+	background: #5f2159 ;
+	color:#fff;
+}
+
+/*end home page pagination*/
+
+
+/*start of contact form styling*/
+#contact-form, #register-form{
+	max-width:500px;
+	margin: 20px auto;
+}
+#contact-form .form-group{
+	margin-bottom:0px;
+	
+	
+}
+#contact-form .form-control, #contact-form textarea, #register-form .form-control, #register-form textarea{
+	margin-bottom:10px;
+}
+#contact-form textarea, #register-form textarea{
+	height:180px;
+}
+#contact-form i, #register-form i {
+	height:0px;
+	float:left;
+	position:relative;
+	top:-33px;
+	left:10px;
+	color:#999;
+}
+
+#contact-form .asterisk, #register-form .asterisk {
+	display:none;
+	float:right;
+	height:0px;
+	font-size:30px;
+	color:#d22828;
+	position:relative;
+	top:-90px;
+	left:-10px;
+}
+
+#contact-form  input, #register-form  input {
+	padding-left:30px;
+}
+#contact-form .send-icon, #register-form .send-icon  {
+	
+	top: -25px;
+	color: #fff;
+}
+#contact-form .custom-alert, #register-form .custom-alert, .custom-alert{
+	padding:5px 10px;
+	display:none;
+}
+/*end of contact form styling*/
+
+
+/* footer*/
+footer {
+	
+	
+	background-color:#e7e7e7;
+	color:#111;
+	min-height: 100px;
+	margin-bottom:0px ;
+   
+	
+}
+footer p {
+	margin:20px auto;
+	
+}
+.mydev{
+border-radius: 30%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+text-align:center;
+padding:10%;
+margin:5%;
+}
+.card
+{
+	position: relative;
+    
+	background-color: #fff;
+	margin-top: 30%;
+    border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align:center;
+	
+}
+.image
+{    
+	height:300px;
+	width: 80%;
+   
+	margin: auto;
+	position: absolute;
+	top: -15%;
+	left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	border-radius:50%;
+
+		
+}
+.image img{
+	height:100%;
+	width:100%;
+}
+.card .content
+{
+	padding:35% 5% 10%;
+}
+
+.mybtn{
+	
+	background-color:#702283;
+	text-decoration:none;
+	color:#fff;
+	border-radius:3px;
+	margin:2%;
+}
+.mybtn:hover{
+	background-color:#962071;
+	color:#fff;
+}
+/*register form styling */
+
+.myform{
+	
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	 border-radius:10%;
+	margin:10%;
+	padding:10%;
+	position:relative;
+	text-align:center;
+	
+}
+.myform .form-title{
+	position:absolute;
+	top:-10%;
+	left:19%;
+	background-color:#5f2159;
+	padding:2% 20%;
+	border-radius:10%;
+	margin-bottom:10%;
+	text-align:center;
+	
+	
+	
+}
+a.likes, p.likes{
+	font-size:22px !important;
+	
+}
+
+ a.unlikes{
+	 font-size:22px !important;
+ }
+/* */
